@@ -22,41 +22,28 @@ const Projects = () => {
    
         {
             id: 1,
-            project_name: 'Forestessential India',
-            image: 'https://i.ibb.co/jwgRYJx/american.jpg',
+            project_name: 'Meanbuy',
+            image: 'https://miro.medium.com/max/1400/0*IwFXx0-8jrzqQ3k5.png',
             project_desc:
-                'An e-commerce website of American lifestyle, clothing and accessories.',
-            deploy_link: 'https://rubyroy21.github.io/American-Eagle/',
-            repo_link: 'https://github.com/rubyroy21/American-Eagle.git',
+                'Meanbuy is the future of online shopping they have products ranging from womens accessories to consumer electronics.',
+            deploy_link: 'https://bvaishnavi123.github.io/mean.github.io/',
+            repo_link: ' https://github.com/Bvaishnavi123/meanbuy.github.io',
             tech_stack: [
                 <FaHtml5 />,
                 <FaCss3 />,
                 <FaJs />,
                 
+                
             ],
         },
         {
             id: 2,
-            project_name: 'J.crew',
-            image: 'https://i.ibb.co/6BD3NRk/jcrew.jpg',
+            project_name: 'SkinStore',
+            image: 'https://miro.medium.com/max/700/0*aVJ2OQHcDNuGhr8i.png',
             project_desc:
-                'An e-commerce website with a catalog of modern lifestyles clothing for men, women and kids.',
-            deploy_link: 'https://jcrew-clone.netlify.app',
-            repo_link: 'https://github.com/rubyroy21/J.Crew-Clone.git',
-            tech_stack: [
-                <FaHtml5 />,
-                <FaCss3 />,
-                <FaJs />,
-            ],
-        },
-        {
-            id: 3,
-            project_name: 'Koovs',
-            image: 'https://i.ibb.co/xHqqVCZ/koovs.jpg',
-            project_desc:
-                "KOOVS is the one-stop online fashion destination for all your fashion needs.",
-            deploy_link: 'https://koovsclone.netlify.app',
-            repo_link: 'https://github.com/chandan8809/koovs-2.0.git',
+                'SkinStore.com is among the leading online beauty retailers worldwide. Millions of women and men have discovered the value, selection, and expertise Skinstore offers. With more than 200 premium brands typically found only in luxury spas.',
+            deploy_link: 'https://guileless-custard-2b667a.netlify.app/',
+            repo_link: 'https://github.com/shoaib-ahmed16/ProjectSkinStore.git , https://github.com/shoaib-ahmed16/SkinStore-front_end',
             tech_stack: [
                 <FaHtml5 />,
                 <FaCss3 />,
@@ -68,13 +55,28 @@ const Projects = () => {
             ],
         },
         {
-            id: 4,
-            project_name: 'Mini Weather App',
-            image: 'https://i.ibb.co/3rphzkm/weather.jpg',
+            id: 3,
+            project_name: 'Mini YouTube',
+            image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvIioeQvJa-B4kJDQPEdqhsghPnIfzANwlHA&usqp=CAU',
             project_desc:
-                'A mini weather app that can show weather of many cities.',
-            deploy_link: 'https://mini-weather-application.netlify.app/',
-            repo_link: 'https://github.com/rubyroy21/weather-application.git',
+                "A simple YouTube clone completed in two days , where user can find all the videos similar as YouTube app . where user can search for the video & download the videos .",
+            deploy_link: 'https://hungry-benz-acd4a5.netlify.app',
+            repo_link: 'https://github.com/Bvaishnavi123/YouTubeClone',
+            tech_stack: [
+                <FaHtml5 />,
+                <FaCss3 />,
+                <FaJs />,
+               
+            ],
+        },
+        {
+            id: 4,
+            project_name: 'Mini Food App',
+            image: 'https://blossomthemes-wbtneb0y4p.netdna-ssl.com/wp-content/uploads/2020/08/Tasty-Food.jpg',
+            project_desc:
+                'A mini food  app that can show receipe of various food.',
+            deploy_link: 'https://sharp-visvesvaraya-f7818e.netlify.app',
+            repo_link: 'https://github.com/Bvaishnavi123/Mini_Food_App',
             tech_stack: [
                 <FaJs />,
                 <FaHtml5 />,
