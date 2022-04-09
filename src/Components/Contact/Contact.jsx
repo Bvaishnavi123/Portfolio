@@ -35,7 +35,7 @@ const footerData = [
     {
         id: 1,
         title: 'Mobile',
-        display: '+91 866870993',
+        display: '+91 8668770993',
         link: 'tel:+91 8668770993',
         icon: (
             <FaPhone style={{ color: 'grey' }} className='commonIconsFooter' />
