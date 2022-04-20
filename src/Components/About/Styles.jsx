@@ -47,7 +47,7 @@ export const AboutInfo = styled.div`
 `;
 
 export const AboutInfoP = styled.div`
-    font-size: 18px;
+    font-size: 22px;
     margin-bottom: 20px;
     color: ${(props) => props.theme.fontColorSecondary};
 `;

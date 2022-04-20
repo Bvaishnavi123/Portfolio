@@ -21,6 +21,8 @@ export const A = styled.a`
 export const BoxDiv = styled.div`
     text-align: center;
     width: 33.3333%;
+    
+    
     @media (max-width: 1025px) {
         width: 50%;
     }
@@ -50,13 +52,13 @@ export const ProjectDiv = styled.div`
     }
 `;
 export const ServiceBoxHeader = styled.div`
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 600;
     margin-bottom: 5px;
     color: ${(props) => props.theme.fontColorHeader};
 `;
 export const ServiceBoxP = styled.div`
-    font-size: 14px;
+    font-size: 18px;
     /* text-align: left; */
     color: ${(props) => props.theme.fontColorSecondary};
 `;

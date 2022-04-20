@@ -14,7 +14,7 @@ const Logo = styled.div`
         font-size: 24px;
     }
     span:nth-child(2) {
-        font-family: 'Agustina Regular';
+        font-family: 'Helvetica';
         font-weight: bold;
         font-variant-ligatures: no-common-ligatures;
         -webkit-font-variant-ligatures: no-common-ligatures;

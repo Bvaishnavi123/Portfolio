@@ -25,7 +25,7 @@ const Projects = () => {
             project_name: 'Meanbuy',
             image: 'https://miro.medium.com/max/1400/0*IwFXx0-8jrzqQ3k5.png',
             project_desc:
-                'Meanbuy is the future of online shopping they have products ranging from womens accessories to consumer electronics.',
+                'Meanbuy is the of online shopping platform with varities of products ranging from womens accessories to consumer electronics.',
             deploy_link: 'https://bvaishnavi123.github.io/mean.github.io/',
             repo_link: ' https://github.com/Bvaishnavi123/meanbuy.github.io',
             tech_stack: [
@@ -41,9 +41,9 @@ const Projects = () => {
             project_name: 'SkinStore',
             image: 'https://miro.medium.com/max/700/0*aVJ2OQHcDNuGhr8i.png',
             project_desc:
-                'SkinStore.com is among the leading online beauty retailers worldwide. Millions of women and men have discovered the value, selection, and expertise Skinstore offers. With more than 200 premium brands typically found only in luxury spas.',
+                'SkinStore is among the leading online beauty retailers worldwide. Millions of women and men have discovered the value, selection, and expertise Skinstore offers.',
             deploy_link: 'https://guileless-custard-2b667a.netlify.app/',
-            repo_link: 'https://github.com/shoaib-ahmed16/ProjectSkinStore.git , https://github.com/shoaib-ahmed16/SkinStore-front_end',
+            repo_link: 'https://github.com/Bvaishnavi123/ProjectSkinStore ',
             tech_stack: [
                 <FaHtml5 />,
                 <FaCss3 />,
@@ -98,7 +98,7 @@ const Projects = () => {
                                 <img
                                     src={item.image}
                                     alt='icon'
-                                    style={{ width: '100%' }}
+                                    style={{ width: '100%', height:'200px',padding:'10px' }}
                                 />
                                 <div style={{ margin: '25px' }}>
                                     <ServiceBoxHeader
