@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import emailjs from 'emailjs-com';
+import emailjs from '@emailjs/browser';
+
 
 import {
     ContactContainer,
@@ -82,18 +83,19 @@ const Contact = () => {
         e.preventDefault();
 
         const { name, subject, email, message } = e.target;
-
+        console.log("hi")
         emailjs
             .send(
-                'service_ihx3u6r',
-                'template_26f71gq',
+                'service_chxzhbh',
+                'template_2lo54t3',
                 {
                     name: name.value,
                     email: email.value,
                     subject: subject.value,
                     message: message.value,
                 },
-                'sVEOuW3IDoRsRZ7Bw'
+                'BOwshvd0DJWAkgKIC'
+                
             )
             .then(
                 function (response) {
