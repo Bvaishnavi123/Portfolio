@@ -89,7 +89,7 @@ const Contact = () => {
                 'service_chxzhbh',
                 'template_2lo54t3',
                 {
-                    name: name.value,
+                    from_name: name.value,
                     email: email.value,
                     subject: subject.value,
                     message: message.value,

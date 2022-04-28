@@ -94,8 +94,8 @@ function Navbar({ themeToggler }) {
                         activeClass='active'
                         to={item.css}
                         spy={true}
-                        smooth={true}
-                        duration={500}
+                        // smooth={true}
+                        // duration={500}
                     >
                         <NavItem key={item.id}>{item.name}</NavItem>
                     </Link>
