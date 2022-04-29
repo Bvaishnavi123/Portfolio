@@ -11,21 +11,21 @@ import Home from './Container/Home';
 import AnimatedCursor from 'react-animated-cursor';
 
 const DarkTheme = {
-    backgroundColor: '#15161b', //021f34//#1f2022
+    backgroundColor: '#1c1a1a', //021f34//#1f2022
     fontColorHeader: '#ffd479', ///fff
     fontColorHeaderHover: '#25265e', //25265e
-    fontColorPrimary: '#b3b9c5', //fff
-    fontColorSecondary: '#b3b9c5', //98c0c6
+    fontColorPrimary: '#ffffff', //fff
+    fontColorSecondary: '#ffffff', //98c0c6
     socialIconColor: '#e14eca', //e14eca
     cardColor: '#212129', //01162a
     // commonBorder: '#00aaf2', //00aaf2
 };
 const LightTheme = {
-    backgroundColor: '#EEEEEE', //f9fafc/#fff
+    backgroundColor: '#f2e9e9', //f9fafc/#fff
     fontColorHeader: '#343a40', ///25265e
     fontColorHeaderHover: '#fff', //fff
-    fontColorPrimary: '#495057', //25265e
-    fontColorSecondary: '#495057', //25265eb3
+    fontColorPrimary: '#000000', //25265e
+    fontColorSecondary: '#0b0b0b', //25265eb3
     cardColor: '#fbfbfd', //fff
     socialIconColor: 'rgba(37, 38, 94, 0.7)', //rgba(37, 38, 94, 0.7)
     commonBorder: '#15161b', //0556f3
@@ -47,7 +47,7 @@ const App = () => {
             <div className='app'>
                 <AnimatedCursor
                     innerSize={10}
-                    outerSize={30}
+                    outerSize={10}
                     color='255, 46, 99'
                     outerAlpha={0.4}
                     innerScale={0.6}

@@ -25,7 +25,7 @@ const Projects = () => {
             project_name: 'Meanbuy',
             image: 'https://miro.medium.com/max/1400/0*IwFXx0-8jrzqQ3k5.png',
             project_desc:
-                'Meanbuy is the of online shopping platform with varities of products ranging from womens accessories to consumer electronics.',
+                'Meanbuy is a E-commerce website the of online shopping platform with varities of products ranging from womens accessories to consumer electronics.',
             deploy_link: 'https://bvaishnavi123.github.io/mean.github.io/',
             repo_link: ' https://github.com/Bvaishnavi123/meanbuy.github.io',
             tech_stack: [

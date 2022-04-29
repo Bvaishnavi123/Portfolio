@@ -24,11 +24,12 @@ export const Column = styled.div`
 `;
 
 export const Img = styled.img`
-    padding: 30px;
+    padding: 10px;
     width: 400px;
     height: 400px;
     border-radius: 50%;
     /* border: 1px solid black; */
+    box-shadow: rgba(20, 20, 21, 0.3) 0px 0px 0px 3px;
     @media (max-width: 465px) {
         /* margin-left: -35px; */
         /* width: 80%; */

@@ -35,7 +35,7 @@ export const ServiceBox = styled.div`
     padding-bottom: 5px;
     background: ${(props) => props.theme.cardColor};
     color: ${(props) => props.theme.fontColorSecondary};
-    box-shadow: 0px 12px 24px rgb(2 30 84 / 10%);
+    box-shadow:rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;;
     margin: 10px;
     /* transition: all 0.5s linear; */
     &:hover {
