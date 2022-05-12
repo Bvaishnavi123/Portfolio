@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaGithub, FaLink, FaNodeJs } from 'react-icons/fa';
+import { FaGithub, FaLink, FaNodeJs, FaReact } from 'react-icons/fa';
 import {
     ProjectDiv,
     Row,
@@ -81,6 +81,25 @@ const Projects = () => {
                 <FaJs />,
                 <FaHtml5 />,
                 <FaCss3 />,
+            ]
+        },
+        {
+            id: 5,
+            project_name: 'Gearbest.com/Clone',
+            image: 'https://github.com/Bvaishnavi123/GearBest.github.io/raw/main/src/Images/websitePic.png',
+            project_desc:
+                'GearBest is for gadget lovers by gadget lovers.',
+            deploy_link: 'gearbestclonemasai.netlify.app/',
+            repo_link: 'https://github.com/Bvaishnavi123/GearBest.github.io',
+            tech_stack: [
+                <FaJs />,
+                <FaHtml5 />,
+                <FaCss3 />,
+                <FaReact/>,
+                <SiMongodb />,
+                <SiExpress />,
+                <AiFillGithub />,
+                <FaNodeJs />,
             ]
         }
     ];
