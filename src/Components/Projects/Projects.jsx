@@ -89,7 +89,7 @@ const Projects = () => {
             image: 'https://github.com/Bvaishnavi123/GearBest.github.io/raw/main/src/Images/websitePic.png',
             project_desc:
                 'GearBest is for gadget lovers by gadget lovers.',
-            deploy_link: 'https://gearbestclonemasai.netlify.app/',
+            deploy_link:"https://gearbestclonemasai.netlify.app/",
             repo_link: 'https://github.com/Bvaishnavi123/GearBest.github.io',
             tech_stack: [
                 <FaJs />,
