@@ -9,6 +9,7 @@ import PageNotFound from './Components/PageNotFound/PageNotFound';
 import { ThemeProvider } from 'styled-components';
 import Home from './Container/Home';
 import AnimatedCursor from 'react-animated-cursor';
+import { Experience } from './Components/Experience/experience.jsx';
 
 const DarkTheme = {
     backgroundColor: '#1c1a1a', //021f34//#1f2022
@@ -70,6 +71,8 @@ const App = () => {
                         <Route path='/skills' component={Skills} />
                         <Route path='/about' component={About} />
                         <Route path='/contact' component={Contact} />
+                        <Route path='/experience' component={Experience} />
+
                         <Route exact path='*' component={PageNotFound} />
                     </Switch>
                 </Router>

@@ -72,7 +72,7 @@ const Projects = () => {
         {
             id: 4,
             project_name: 'Mini Food App',
-            image: 'https://blossomthemes-wbtneb0y4p.netdna-ssl.com/wp-content/uploads/2020/08/Tasty-Food.jpg',
+            image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhctOrE03Y4EEeoDOK0lR5VXi2h9hyKb6low&usqp=CAU',
             project_desc:
                 'A mini food  app that can show receipe of various food.',
             deploy_link: 'https://sharp-visvesvaraya-f7818e.netlify.app',
@@ -86,7 +86,7 @@ const Projects = () => {
         {
             id: 5,
             project_name: 'Gearbest.com/Clone',
-            image: 'https://github.com/Bvaishnavi123/GearBest.github.io/raw/main/src/Images/websitePic.png',
+            image: 'https://storage.googleapis.com/arabclicks-morexa.appspot.com/2019/06/adv_gearbest.jpg',
             project_desc:
                 'GearBest is for gadget lovers by gadget lovers.',
             deploy_link:"https://gearbestclonemasai.netlify.app/",

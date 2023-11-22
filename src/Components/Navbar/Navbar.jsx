@@ -15,6 +15,8 @@ const menus = [
     { id: 2, name: 'Skills', css: 'skills' },
     { id: 3, name: 'Projects', css: 'projects' },
     { id: 4, name: 'Contact', css: 'contact' },
+    { id: 5, name: 'Experience', css: 'experience' },
+
 ];
 // var styles = {
 //   bmBurgerButton: {

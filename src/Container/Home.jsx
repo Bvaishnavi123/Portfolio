@@ -9,6 +9,7 @@ import Contact from '../Components/Contact/Contact';
 import Stats from '../Components/Stats/Stats';
 import Loader from '../Components/Loader/Loader';
 import Footer from '../Components/Foooter/Footer';
+import { Experience } from '../Components/Experience/experience.jsx';
 const Home = ({ currentTheme, themeToggler }) => {
     const [isLoading, setIsLoading] = useState(true);
     useEffect(() => {
@@ -25,6 +26,7 @@ const Home = ({ currentTheme, themeToggler }) => {
             <Navbar currentTheme={currentTheme} themeToggler={themeToggler} />
             <Banner />
             <About />
+            <Experience/>
             <Skills />
             <Projects />
             <Stats />
