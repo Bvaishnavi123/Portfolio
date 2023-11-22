@@ -20,7 +20,7 @@ const socialMediaLinks = [
     },
     {
         id: 1,
-        link: 'https://github.com/Bvaishnavi23',
+        link: 'https://github.com/Bvaishnavi123',
         icon: <FaGithub />,
     },
     {
@@ -45,11 +45,11 @@ const About = () => {
                     <H1>About Me</H1>
                     <AboutInfo>
                         <AboutInfoP>
-                            I am Observant and detail-oriented aspiring Full-Stack
-                            Developer. Self-motivated and curious, with a
-                            keen interest in building user-centric products.
-                            Looking forward to honing my skills in a
-                            challenging work environment.
+                        Experienced Frontend Developer with 1+ years in
+MERN technology. Proven expertise in React.js and
+building responsive user interfaces. Committed to
+delivering high-quality solutions and actively seeking
+opportunities to contribute to impactful projects.
                         </AboutInfoP>
                         <AboutInfoP>
                             You can take a look at my work here -

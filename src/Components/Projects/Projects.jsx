@@ -85,12 +85,12 @@ const Projects = () => {
         },
         {
             id: 5,
-            project_name: 'Gearbest.com/Clone',
-            image: 'https://storage.googleapis.com/arabclicks-morexa.appspot.com/2019/06/adv_gearbest.jpg',
+            project_name: 'Frazo.com/Clone',
+            image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrnbe93PeMIRm29TDYre-Hp1fSyz4V7v6DStWYOuAuSIoRKQnDedJaHVAFTXZpeF8rAFQ&usqp=CAU',
             project_desc:
-                'GearBest is for gadget lovers by gadget lovers.',
-            deploy_link:"https://gearbestclonemasai.netlify.app/",
-            repo_link: 'https://github.com/Bvaishnavi123/GearBest.github.io',
+                'Frazo is a e-commerce website,offering a wide range of fresh vegetables.',
+            deploy_link:"https://frazoclone.netlify.app",
+            repo_link: 'https://github.com/Bvaishnavi123/Frazo-Clone',
             tech_stack: [
                 <FaJs />,
                 <FaHtml5 />,
